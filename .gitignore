@@ -5,6 +5,7 @@
 *.db
 *.opendb
 *.filters
+*.suo
 
 # Compiled Object files
 *.slo

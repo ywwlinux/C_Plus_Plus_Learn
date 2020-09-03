@@ -1,6 +1,11 @@
 # Prerequisites
 *.d
 
+# VC project files
+*.db
+*.opendb
+*.filters
+
 # Compiled Object files
 *.slo
 *.lo

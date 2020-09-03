@@ -6,6 +6,7 @@
 *.opendb
 *.filters
 *.suo
+*.code-workspace
 
 # vsvars32.bat: config the environment for c++ compiler
 *.bat   

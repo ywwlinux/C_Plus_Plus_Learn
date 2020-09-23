@@ -8,6 +8,9 @@
 *.suo
 *.code-workspace
 
+# dir
+Learn_Project/x64
+
 # vsvars32.bat: config the environment for c++ compiler
 *.bat   
 

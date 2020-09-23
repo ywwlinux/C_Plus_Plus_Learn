@@ -1,15 +1,27 @@
 
 /*
-    cl /EHsc 
-	echo %ERRORLEVEL%
+    A Simple C++ Console Program 
 */
 
-#include <stdio.h>
+///*  
+// * 界定符注释不能嵌套。
+// * 否则会出现，会把注释部分当作源码。
+// *
+//*/
 
-int main(int argc, char **argv)
+
+#include <iostream>
+
+int main()
 {
-	for(int i = 0; i < argc; i ++)
-		printf("%s\n", argv[i]);
+	/*std::cout << "Enter two numbers:" << std::endl;
+	int v1 = 0, v2 = 0;
+	std::cin >> v1 >> v2;
+	std::cout << "The sum of " << v1 << " and " << v2
+		<< " is " << v1 + v2;  << std::endl;*/
+	int x=0, y=0;
+	std::cin >> x >> y;
+	std::cout << x << y << std::endl;
 
-	return -1;
+	return 0;
 }
